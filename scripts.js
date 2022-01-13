@@ -1,12 +1,7 @@
-const container = document.getElementById("container");
+const containerBoxes = document.querySelector('.container');
 
-function makeGrid() {
-    for (var i = 0; i < (169); i++) {
-        var box = document.createElement('div');
-        box.className = "box";
-        document.getElementById('container').appendChild(box);
-    }
+// Add 16 divs
+for (let i = 1; i < 257; i++) {
+  const div = document.createElement('div');
+  containerBoxes.appendChild(div);
 }
-
-window.onload(makeGrid());
-
