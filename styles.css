@@ -17,14 +17,25 @@ nav {
 /* Grid */
 
 #container {
-    display: grid;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+
     border: 2px solid red;
-    margin: 10px 20px;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+
 }
 
 .box {
-    display: grid;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    margin: 1px;
+}
+
+.box:hover {
     background-color: black;
 }
