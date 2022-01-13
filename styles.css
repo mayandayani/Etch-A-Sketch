@@ -19,6 +19,12 @@ nav {
 #container {
     display: grid;
     border: 2px solid red;
-    grid-area: 
-    
+    margin: 10px 20px;
+}
+
+.box {
+    display: grid;
+    width: 10px;
+    height: 10px;
+    background-color: black;
 }
